@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Luminosita/Luminosita.iml" filepath="$PROJECT_DIR$/Luminosita/Luminosita.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LuminositaProject.iml" filepath="$PROJECT_DIR$/LuminositaProject.iml" />
+    </modules>
+  </component>
+</project>
+

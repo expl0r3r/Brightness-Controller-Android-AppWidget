@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageButton
+        android:id="@+id/auto"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="?android:attr/selectableItemBackground"
+        tools:ignore="NewApi" />
+
+    <ImageButton
+        android:id="@+id/minus"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@id/auto"
+        android:layout_centerVertical="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="-"
+        android:src="@drawable/minus"
+        tools:ignore="NewApi" />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="@android:style/Widget.Holo.ProgressBar.Horizontal"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="8dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@id/minus"
+        android:layout_toLeftOf="@+id/plus"
+        tools:ignore="NewApi" />
+
+    <TextView
+        android:id="@+id/percent"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/minus"
+        android:layout_toLeftOf="@+id/plus"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@android:color/white"/>
+
+    <ImageButton
+        android:id="@+id/plus"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="+"
+        android:src="@drawable/plus"
+        tools:ignore="NewApi" />
+
+</RelativeLayout>

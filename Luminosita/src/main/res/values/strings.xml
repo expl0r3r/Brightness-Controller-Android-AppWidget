@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Brightness Controller</string>
+    <string name="widget_name">Brightness Controller</string>
+    <string name="toast_text">Automatic Brightness regolation is now on!</string>
+    <string name="title_activity_screen_refresh">ScreenRefresh</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

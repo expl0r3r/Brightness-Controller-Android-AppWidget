@@ -1,3 +1,9 @@
+  Brightness Controller - Android AppWidget Project
+  
+  This simple AppWidget for Android devices lets users take control over System brightness. This is not a mask, so it won't work on all devices (such as Samsung, due to software limitation).
+  
+  
+
 
   The MIT License (MIT)
  
@@ -23,6 +29,4 @@
  
  
  
-  Brightness Controller - Android AppWidget Project
- 
-  Developed by Stefano Munarini on 10/11/13
+

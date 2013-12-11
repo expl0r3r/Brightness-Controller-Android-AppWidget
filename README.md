@@ -1,12 +1,13 @@
-  <h1>Brightness Controller </h1>  
+  <p> <h1>Brightness Controller </h1>  
   
-  <h3> Android AppWidget Project </h3>
+  <h3> Android AppWidget Project </h3> </p>
   
   This simple AppWidget for Android devices lets users take control over System brightness. This is not a mask, so it won't work on all devices (such as Samsung, due to software limitation).
   
-  <br> <br>
   
-  <h3> The MIT License (MIT) </h3>
+  <h1></h1>
+  
+  <h5> The MIT License (MIT) </h5>
  
   Copyright (c) 2013 Stefano Munarini
  

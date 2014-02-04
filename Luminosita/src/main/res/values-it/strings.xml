@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">Controller Luminosità</string>
-    <string name="widget_name">Luminosità Controller</string>
+    <string name="widget_name">Controller Luminosità</string>
     <string name="toast_text">Luminosità automatica.</string>
 
 </resources>
